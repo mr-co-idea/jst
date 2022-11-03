@@ -1,0 +1,49 @@
+{
+    "type": "list",
+    "value": [
+        {
+            "type": "map",
+            "variate": {
+                "type": "variate",
+                "field": "list",
+                "defaultValue": ""
+            },
+            "connector": {
+                "type": "connector",
+                "value": "\\n"
+            },
+            "value": {
+                "type": "list",
+                "value": [
+                    {
+                        "type": "text",
+                        "value": "export const "
+                    },
+                    {
+                        "type": "variate",
+                        "field": "field",
+                        "defaultValue": ""
+                    },
+                    {
+                        "type": "text",
+                        "value": " = "
+                    },
+                    {
+                        "type": "variate",
+                        "field": "value",
+                        "defaultValue": ""
+                    },
+                    {
+                        "type": "text",
+                        "value": " // "
+                    },
+                    {
+                        "type": "variate",
+                        "field": "remark",
+                        "defaultValue": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

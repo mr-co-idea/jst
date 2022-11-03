@@ -1,0 +1,14 @@
+{
+    "list": [
+        {
+            "field": "@{TEST1}",
+            "value": "test1",
+            "remark": "@{测试1}"
+        },
+        {
+            "field": "@{TEST2}",
+            "value": "test2",
+            "remark": "@{测试2}"
+        }
+    ]
+}
